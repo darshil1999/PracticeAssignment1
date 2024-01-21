@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h2>@Model.Text</h2>
+    <p>@Model.Author</p>
+</div>
+
+<a href="@Url.Action("OtherPage","Home")">Go to the Other Page</a>

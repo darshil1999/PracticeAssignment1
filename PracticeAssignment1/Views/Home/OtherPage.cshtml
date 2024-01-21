@@ -1,0 +1,12 @@
+﻿@model PracticeAssignment1.Models.Quote
+
+@{
+    ViewData["Title"] = "Other Page";
+}
+
+<div>
+    <h2>@Model.Text</h2>
+    <p>@Model.Author</p>
+</div>
+
+<a href="@Url.Action("Index", "Home")">Return to the Home Page</a>
